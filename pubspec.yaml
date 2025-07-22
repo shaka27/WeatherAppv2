@@ -1,0 +1,57 @@
+name: weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^12.0.0
+  weather: ^3.2.1
+  intl: ^0.20.2
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.3.5
+
+flutter_native_splash:
+    color: "#b07e27"
+    image: lib/assets/app_icon.jpg
+    android: true
+    ios: true
+
+    android_12:
+      image: lib/assets/app_icon.jpg
+      icon_background_color: "#b07e27"
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/app_icon.jpg"
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/1.png
+    - lib/assets/3.png
+    - lib/assets/4.png
+    - lib/assets/5.png
+    - lib/assets/6.png
+    - lib/assets/7.png
+    - lib/assets/8.png
+    - lib/assets/sun.png
+    - lib/assets/windy.png
+    - lib/assets/temperature.png
+
+
